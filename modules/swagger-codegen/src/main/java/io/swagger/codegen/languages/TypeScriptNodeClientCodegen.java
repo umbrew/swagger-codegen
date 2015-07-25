@@ -20,5 +20,4 @@ public class TypeScriptNodeClientCodegen extends AbstractTypeScriptClientCodegen
         templateDir = "TypeScript-node";
         supportingFiles.add(new SupportingFile("api.mustache", null, "api.ts"));
     }
-
 }

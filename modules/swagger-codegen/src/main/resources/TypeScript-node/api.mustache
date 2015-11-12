@@ -62,7 +62,7 @@ export class {{classname}} {
         var path = this.url + this.basePath + '{{path}}';
 
 {{#pathParams}}
-        path = path.replace('{' + '{{paramName}}' + '}', String({{paramName}}));
+        path = path.replace('{' + '{{baseName}}' + '}', String({{paramName}}));
 
 {{/pathParams}}
         var queryParameters: any = {};
